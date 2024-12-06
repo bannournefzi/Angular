@@ -17,6 +17,8 @@ import { AddApartmentComponent } from './apartments/add-apartment/add-apartment.
 import { AddResidenceComponent } from './add-residence/add-residence.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
+import { RegisterComponent } from './register/register.component';
+import { FormAppartmentComponentComponent } from './form-appartment-component/form-appartment-component.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +34,8 @@ import { Router } from '@angular/router';
     ApartmentsByResidenceComponent,
     AddApartmentComponent,
     AddResidenceComponent,
+    RegisterComponent,
+    FormAppartmentComponentComponent,
     
   ],
   imports: [
